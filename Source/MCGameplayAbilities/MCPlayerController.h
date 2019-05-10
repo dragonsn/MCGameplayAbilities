@@ -16,7 +16,7 @@ class MCGAMEPLAYABILITIES_API AMCPlayerController : public APlayerController
 
 public:
 	virtual void BeginPlay() override;
-	virtual void Possess(class APawn* P) override;
+	virtual void OnPossess(class APawn* P) override;
 	virtual void AcknowledgePossession(class APawn* P) override;
 
 	UFUNCTION()
